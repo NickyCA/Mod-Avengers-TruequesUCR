@@ -1,0 +1,174 @@
+﻿html, body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Myriad Pro;
+}
+
+code {
+    background-color: #9AA3AC;
+    padding: 0 8px;
+}
+
+#textoGeneral {
+    height: 1000px;
+}
+
+#about {
+    height: 370px; /*HEIGH ESTANDAR*/
+}
+
+#select {
+    height: auto; /*HEIGH ESTANDAR*/
+}
+
+.header {
+    margin-top: 0;
+    max-width: 100vh;
+    background-color: #005da4 !important;
+}
+
+.botonesInicio {
+    float: right;
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.barraBusqueda {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.containerBarraBusqueda {
+    background-color: #005da4 !important;
+    height: 76px;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.navbar {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+
+    .navbar .barraBusqueda {
+        float: right;
+    }
+
+    img.iconoperfil{
+    width:40px;
+    height:40px;
+    border-radius:150px;
+    background:white;
+}
+    
+    .navbar input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+    }
+
+    .navbar .barraBusqueda button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .navbar .barraBusqueda button:hover {
+            background: #ccc;
+        }
+
+.search {
+    width: 900px;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: gray;
+}
+
+    .searchTerm:focus {
+        color: black;
+    }
+
+.searchButton {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #00B4CC;
+    background: lightgray;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: #222222;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+}
+
+/*Footer obtenido de: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+}
+
+.Site-footer {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+}
+
+.Footer {
+    padding: 1.5rem;
+    background: black;
+    color: white;
+    font-size: .85em;
+    overflow-x: hidden;
+    text-align: center;
+}

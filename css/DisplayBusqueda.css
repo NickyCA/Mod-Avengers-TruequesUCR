@@ -1,0 +1,102 @@
+﻿.containerNavBarGeneral {
+    background-color: lightgray;
+}
+
+.navBarGeneral {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+.navBarGeneral li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+#container {
+    min-height: 100%;
+    padding-bottom: 100px;
+    float:right;
+}
+
+.primary-holder {
+    float: none;
+}
+
+.despliegueResultado {
+    background-color: lightgray;
+    position: relative;
+    min-height: 25px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.listaDeEstrellas {
+    list-style-type: none;
+    padding-left: 0pt;
+}
+
+.seleccion-estrellas1 {
+    text-decoration: none;
+    color: orange;
+    border-color: black;
+}
+    .seleccion-estrellas1:hover {
+        color: orange;
+        text-decoration: none;
+    }
+
+.seleccion-estrellas2 {
+    text-decoration: none;
+    color: black;
+    border-color: black;
+}
+
+    .seleccion-estrellas2:hover {
+        color: orange;
+        text-decoration: none;
+    }
+
+.checked {
+    opacity: 0;
+}
+
+.parrafoEstrellas {
+    display: inline;
+}
+
+    .parrafoEstrellas:hover {
+        color: orange;
+        text-decoration: none;
+    }
+
+.checked {
+    opacity: 0;
+}
+
+#fila-principal {
+    margin-right: 0px;
+}
+
+#buttonClean {
+
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.img_grande {
+    width: 300px; 
+    height : 300px;
+}
+
+.img_pequeno {
+    width: 100px;
+    height: 100px;
+}

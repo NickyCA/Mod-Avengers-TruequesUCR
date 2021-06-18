@@ -1,0 +1,53 @@
+﻿.containerNavBarGeneral {
+    background-color: lightgray;
+}
+
+.navBarGeneral {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+    .navBarGeneral li {
+        list-style: none;
+        margin-left: 30px;
+        display: block;
+    }
+
+        .navBarGeneral li:hover {
+            list-style: none;
+            margin-left: 30px;
+            display: block;
+        }
+
+        .navBarGeneral li ul {
+            display: none;
+            position: absolute;
+        }
+
+        .navBarGeneral li a {
+            color: black;
+            text-decoration: none;
+            padding: 6px 6px;
+        }
+
+        .navBarGeneral li a:hover {
+            background-color: #6dc067;
+        }
+
+        .navBarGeneral li:hover > ul {
+            display: block;
+        }
+
+.navBarGeneralLink li a {
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    padding: 6px 12px;
+    display: block;
+}
+
+    .navBarGeneralLink li a:hover {
+        background-color: #6dc067;
+    }

@@ -1,0 +1,23 @@
+﻿.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: 10px;
+
+}
+
+/* The colour of the indicators */
+    .blog .carousel-indicators li {
+        background: #a3a3a3;
+        border-radius: 50%;
+        width: 20px;
+        height: 2px;
+    }
+
+    .blog .carousel-indicators .active {
+        background: #707070;
+    }
+
+.carouselButton {
+    position:absolute;
+    bottom: 0;
+}
